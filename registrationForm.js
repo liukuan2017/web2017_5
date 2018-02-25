@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('#sub').click(function (event) {
+        event.preventDefault();
         var data={
             name:$('#name').val(),
             password:$('#password').val(),
